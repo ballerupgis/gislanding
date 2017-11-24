@@ -1,0 +1,42 @@
+body  {
+    background-image: url("../img/balk.png");
+    background-size: cover;
+    font-family: 'News Cycle', sans-serif;
+}
+.dropdown-menu {
+  position: absolute;
+}
+
+.dropdown-item {
+}
+#dropdownMenuLink {
+  font-family: 'News Cycle', sans-serif;
+}
+.navbar {
+  opacity: 0.5;
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+}
+.container{
+  padding-top: 50px;
+}
+.row {
+  padding-bottom: 170px;
+}
+.card-img-top {
+ width: 200px;
+ height: 200px;
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+ padding-top: 10px;
+}
+.card {
+  box-shadow: 1px 1px 10px 1px #888888;
+  opacity: 0.8;
+  border-radius: 7px;
+  position: relative;
+}
+.card-title {
+  text-align: center;
+}
