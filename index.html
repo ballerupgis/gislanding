@@ -6,9 +6,12 @@
     <link rel="icon" href="img/bal_icon.png">
     <title>Ballerups WebGIS løsninger</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|News+Cycle" rel="stylesheet">
@@ -25,11 +28,9 @@
     <div class="container">
         <div class="row" id="button-grid">
 
-
             <!--
             QGIS
             -->
-
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="card">
                     <img class="card-img-top" src="img/qgis.png" alt="Card image cap">
@@ -37,49 +38,56 @@
                         <h4 class="card-title">QGIS</h4>
                         <p class="card-text">Dokumentation, vejledning og tutorials til QGIS på dansk og engelsk</p>
                         <div class="dropdown">
-                        <button type="button" class="btn btn-primary dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dokumentation
-                        </button>
+                            <button type="button" class="btn btn-primary dropdown-toggle" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dokumentation
+                            </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="https://www.youtube.com/watch?v=S9NqNeXFvhY&list=PLfg4eksb3j7f4wzSWHtEfJevRWIrSKPYJ" target="_blank">Videovejledning</a>
-                                <a class="dropdown-item" href="https://github.com/ballerupgis/QGIS-vejledning/wiki" target="_blank">Tekstvejledning</a>
-                                <a class="dropdown-item" href="http://docs.qgis.org/latest/en/docs/user_manual/" target="_blank">QGIS dokumentation</a>
-                                <a class="dropdown-item" href="http://www.qgistutorials.com/en/" target="_blank">Tutorials</a>
-                                <a class="dropdown-item" href="https://www.youtube.com/watch?v=6NtHSua3zw0&list=PLNBeueOmuY163iwu4VpZdjqqdU1HkRTP" target="_blank">Video tutorials</a>
+                                <a class="dropdown-item" href="https://www.youtube.com/watch?v=S9NqNeXFvhY&list=PLfg4eksb3j7f4wzSWHtEfJevRWIrSKPYJ"
+                                    target="_blank" data-toggle="tooltip" data-placement="right" title="Dansk videovejledning til brug af QGIS i Ballerup">Videovejledning</a>
+                                <a class="dropdown-item" href="https://github.com/ballerupgis/QGIS-vejledning/wiki"
+                                    target="_blank" data-toggle="tooltip" data-placement="right" title="Dansk vejledning til brug af QGIS. Lavet til ældre QGIS version, så kan have fejl/mangler">Tekstvejledning</a>
+                                <a class="dropdown-item" href="http://docs.qgis.org/latest/en/docs/user_manual/" target="_blank" data-toggle="tooltip" data-placement="right" title="Den officielle QGIS dokumentation på engelsk">QGIS
+                                    dokumentation</a>
+                                <a class="dropdown-item" href="http://www.qgistutorials.com/en/" target="_blank" data-toggle="tooltip" data-placement="right" title="Diverse QGIS tutorials til mere avanceret brug af QGIS">Tutorials</a>
+                                <a class="dropdown-item" href="https://www.youtube.com/watch?v=6NtHSua3zw0&list=PLNBeueOmuY163iwu4VpZdjqqdU1HkRTP"
+                                    target="_blank" data-toggle="tooltip" data-placement="right" title="Diverse QGIS videotutorials til mere avanceret brug af QGIS">Video tutorials</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-
             <!--
             VIDI
             -->
-
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="card">
                     <img class="card-img-top" src="img/vidi.png" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">Vidi</h4>
-                        <p class="card-text">Brugergrænseflade til visning af kort, med mulighed for at udvide med forskellige moduler</p>
+                        <p class="card-text">Brugergrænseflade til visning af kort, med mulighed for at udvide med
+                            forskellige moduler</p>
                         <div class="dropdown">
-                            <button type="button" class="btn btn-primary dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Gå til VIDI
-                      </button>
+                            <button type="button" class="btn btn-primary dropdown-toggle" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Gå til VIDI
+                            </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="http://vidi/app/ballerup/?config=sagsbehandler.json" target="_blank">Sagsbehandler WebGIS</a>
+                                <a class="dropdown-item" href="http://vidi/app/ballerup/?config=sagsbehandler.json"
+                                    target="_blank">Sagsbehandler WebGIS</a>
                                 <a class="dropdown-item" href="http://vidi/app/ballerup/?config=konflikt.json" target="_blank">Konfliktsøger</a>
-                                <a class="dropdown-item" href="http://ballerup-vidi.mapcentia.com/app/ballerup/proj_aktivitetsoverblik/?config=konflikt.json#osm/15/12.3749/55.7324/" target="_blank">Konfliktsøger (ekstern til anlægsprojekter)</a>
-                                <a class="dropdown-item" href="http://vidi/app/ballerup/_17_undervisning/?config=ballerup_skolevej.json#stamenToner/13/12.4002/55.738/" target="_blank">Ruteberegning</a>
-                                <a class="dropdown-item" href="http://vidi/app/ballerup/?config=test.json#stamenTonerLite/12/12.48/55.7467/" target="_blank">Rejsetider (Isokron)</a>
-                                <a class="dropdown-item" href="http://ballerupgis.github.io/lois/" target="_blank">Socioøko Rapport (Demo)</a>
+                                <a class="dropdown-item" href="http://ballerup-vidi.mapcentia.com/app/ballerup/proj_aktivitetsoverblik/?config=konflikt.json#osm/15/12.3749/55.7324/"
+                                    target="_blank">Konfliktsøger (ekstern til anlægsprojekter)</a>
+                                <a class="dropdown-item" href="http://vidi/app/ballerup/_17_undervisning/?config=ballerup_skolevej.json#stamenToner/13/12.4002/55.738/"
+                                    target="_blank">Ruteberegning</a>
+                                <a class="dropdown-item" href="http://vidi/app/ballerup/?config=test.json#stamenTonerLite/12/12.48/55.7467/"
+                                    target="_blank">Rejsetider (Isokron)</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
 
             <!--
             SEMAWI
@@ -89,7 +97,8 @@
                     <img class="card-img-top" src="img/wiki.png" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">Wiki</h4>
-                        <p class="card-text">Dokumentation af bl.a. data, systemer og brugere bagt ind i en sematisk wiki</p>
+                        <p class="card-text">Dokumentation af bl.a. data, systemer og brugere bagt ind i en sematisk
+                            wiki</p>
                         <a href="http://wiki/" target="_blank" class="btn btn-primary">Gå til WIKI</a>
                     </div>
                 </div>
@@ -108,9 +117,10 @@
                         <h4 class="card-title">GeoCloud</h4>
                         <p class="card-text">WebGIS Løsning til databehandling, styling og visning af webkort</p>
                         <div class="dropdown">
-                            <button type="button" class="btn btn-primary dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Gå til GC2
-                      </button>
+                            <button type="button" class="btn btn-primary dropdown-toggle" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Gå til GC2
+                            </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                 <a class="dropdown-item" href="http://gc2" target="_blank">Intern</a>
                                 <a class="dropdown-item" href="http://ballerup.mapcentia.com" target="_blank">Ekstern</a>
@@ -120,7 +130,6 @@
                 </div>
             </div>
 
-
             <!--
             OPENDATA DK
             -->
@@ -129,42 +138,92 @@
                     <img class="card-img-top" src="img/opendata.svg" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">Open data DK</h4>
-                        <p class="card-text">Her udstilles Ballerups og en række andre kommuners data frit til hele verdenen</p>
-                        <a href="http://www.portal.opendata.dk/organization/ballerup-kommune" target="_blank" class="btn btn-primary">Gå til Opendata.dk</a>
+                        <p class="card-text">Her udstilles Ballerups og en række andre kommuners data frit til hele
+                            verdenen</p>
+                        <a href="http://www.portal.opendata.dk/organization/ballerup-kommune" target="_blank" class="btn btn-primary">Gå
+                            til Opendata.dk</a>
                     </div>
                 </div>
             </div>
 
-
-      <!--
+            <!--
             KIBANA
             -->
-      <div class="col-md-4 col-sm-12 d-flex align-items-stretch">
-        <div class="card">
-          <img class="card-img-top" src="img/kibana.png" alt="Card image cap">
-          <div class="card-block">
-            <h4 class="card-title">Kibana</h4>
-            <p class="card-text">Interaktive dashboards giver mulighed for at udforske og filtrere forsekellige data</p>
-            <div class="dropdown">
-              <button type="button" class="btn btn-primary dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Gå til Kibana
-                      </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="http://kibana/app/kibana#/dashboard/Borgertip?_g=(refreshInterval%3A(display%3AOff%2Cpause%3A!f%2Cvalue%3A0)%2Ctime%3A(from%3Anow-2y%2Cmode%3Aquick%2Cto%3Anow))" target="_blank" data-toggle="tooltip" data-placement="right" title="">Borgertip</a>
-                <a class="dropdown-item" href="http://kibana/app/kibana#/dashboard/Belysning?_g=(refreshInterval%3A(display%3AOff%2Cpause%3A!f%2Cvalue%3A0)%2Ctime%3A(from%3Anow-2y%2Cmode%3Aquick%2Cto%3Anow))" target="_blank" data-toggle="tooltip" data-placement="right" title="">Belysning</a>
-                <a class="dropdown-item" href="http://kibana/app/kibana#/dashboard/37f3ffb0-bb43-11e7-8e4b-ff7655a1ac15?_g=(refreshInterval%3A(display%3AOff%2Cpause%3A!f%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Cmode%3Aquick%2Cto%3Anow))" target="_blank" data-toggle="tooltip" data-placement="right" title="">Flådestyring</a>
-                <a class="dropdown-item" href="http://kibana/app/kibana#/dashboard/64b006d0-ace7-11e7-a9ae-7fca46be9aa7?_g=(refreshInterval%3A(display%3AOff%2Cpause%3A!f%2Cvalue%3A0)%2Ctime%3A(from%3Anow-90d%2Cmode%3Aquick%2Cto%3Anow))" target="_blank" data-toggle="tooltip" data-placement="right" title="">Facebookstemning</a>
-                <a class="dropdown-item" href="https://regiongis.github.io/erhvervsinfo/" data-toggle="tooltip" data-placement="right" title="Samling af løsninger rettet mod erhvervsafdelingen i kommuner herunder Kibana dashboards for CVR" target="_blank">Erhvevsinfo</a>
-                <a class="dropdown-item" href="http://kibana/app/kibana#/dashboard/5d181ab0-004e-11e8-95aa-095055ec22e8?_g=(refreshInterval%3A(display%3AOff%2Cpause%3A!f%2Cvalue%3A0)%2Ctime%3A(from%3Anow-24h%2Cmode%3Aquick%2Cto%3Anow))" target="_blank" data-toggle="tooltip" data-placement="right" title="">Indeklimamålinger</a>
+            <div class="col-md-4 col-sm-12 d-flex align-items-stretch">
+                <div class="card">
+                    <img class="card-img-top" src="img/kibana.png" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Kibana</h4>
+                        <p class="card-text">Interaktive dashboards giver mulighed for at udforske og filtrere
+                            forsekellige data</p>
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-primary dropdown-toggle" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Gå til Kibana
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="http://kibana/app/kibana#/dashboard/Borgertip?_g=(refreshInterval%3A(display%3AOff%2Cpause%3A!f%2Cvalue%3A0)%2Ctime%3A(from%3Anow-2y%2Cmode%3Aquick%2Cto%3Anow))"
+                                    target="_blank" data-toggle="tooltip" data-placement="right" title="">Borgertip</a>
+                                <a class="dropdown-item" href="http://kibana/app/kibana#/dashboard/Belysning?_g=(refreshInterval%3A(display%3AOff%2Cpause%3A!f%2Cvalue%3A0)%2Ctime%3A(from%3Anow-2y%2Cmode%3Aquick%2Cto%3Anow))"
+                                    target="_blank" data-toggle="tooltip" data-placement="right" title="">Belysning</a>
+                                <a class="dropdown-item" href="http://kibana/app/kibana#/dashboard/37f3ffb0-bb43-11e7-8e4b-ff7655a1ac15?_g=(refreshInterval%3A(display%3AOff%2Cpause%3A!f%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Cmode%3Aquick%2Cto%3Anow))"
+                                    target="_blank" data-toggle="tooltip" data-placement="right" title="">Flådestyring</a>
+                                <a class="dropdown-item" href="http://kibana/app/kibana#/dashboard/64b006d0-ace7-11e7-a9ae-7fca46be9aa7?_g=(refreshInterval%3A(display%3AOff%2Cpause%3A!f%2Cvalue%3A0)%2Ctime%3A(from%3Anow-90d%2Cmode%3Aquick%2Cto%3Anow))"
+                                    target="_blank" data-toggle="tooltip" data-placement="right" title="">Facebookstemning</a>
+                                <a class="dropdown-item" href="https://regiongis.github.io/erhvervsinfo/" data-toggle="tooltip"
+                                    data-placement="right" title="Samling af løsninger rettet mod erhvervsafdelingen i kommuner herunder Kibana dashboards for CVR"
+                                    target="_blank">Erhvevsinfo</a>
+                                <a class="dropdown-item" href="http://kibana/app/kibana#/dashboard/5d181ab0-004e-11e8-95aa-095055ec22e8?_g=(refreshInterval%3A(display%3AOff%2Cpause%3A!f%2Cvalue%3A0)%2Ctime%3A(from%3Anow-24h%2Cmode%3Aquick%2Cto%3Anow))"
+                                    target="_blank" data-toggle="tooltip" data-placement="right" title="">Indeklimamålinger</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-          </div>
-        </div>
-      </div>
 
-        </div><!--ROW -->
+        </div>
+        <!--ROW -->
+
+        <div class="row" id="button-grid">
+            <!--
+            Web Apps
+            -->
+            <div class="col-md-4 col-sm-12 d-flex align-items-stretch">
+                <div class="card">
+                    <img class="card-img-top" src="img/webapp.png" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Web apps</h4>
+                        <p class="card-text">Mindre web apps som f.eks. bruges til smartcity projekter m.m.</p>
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-primary dropdown-toggle" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Gå til løsning
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="http://ballerupgis.github.io/lois/" data-toggle="tooltip"
+                                data-placement="right" title="Lav en socioøkonomisk rapport ud fra et område du tegner" target="_blank">Socioøko
+                                    Rapport (Demo)</a>
+                                <a class="dropdown-item" href="http://10.192.224.40:4455/" data-toggle="tooltip"
+                                data-placement="right" title="Registrering af biler og GPS'er ifht. flådestyring" target="_blank">Bilregistrering</a>
+                                <a class="dropdown-item" href="http://10.192.224.40:4466/" data-toggle="tooltip"
+                                data-placement="right" title="Se hvor kommunens biler holder parkeret" target="_blank">Bilparkering</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--ROW -->
+
     </div>
     <!--CONTAINTER -->
+
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
 
 </body>
 
